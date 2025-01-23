@@ -2,12 +2,12 @@ const express = require('express')
 const router = express.Router()
 const { posts } = require("../data/db")
 
-//All users
+//All posts
 router.get("/", (req, res) => {
     res.json(posts)
 })
 
-//Add a user
+//Add a post
 router.post("/", (req, res) => {
     const newPost = { id: posts.length + 1, ...req.body }
     users.push(newPost)
