@@ -1,0 +1,1 @@
+This is a basic server application built with Node.js and Express demonstrating how to create a RESTful API with routes for managing users, posts, and comments. The project also includes custom middleware, error handling, and a simple HTML view rendered with a template engine.
